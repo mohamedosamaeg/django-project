@@ -10,6 +10,18 @@
   color: #000;
   background: #D1D5CE;
 }
+body{
+  background-image: url('/static/img/background2.jpg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+p{
+  font-size: medium;
+  color:  #dcdfd8;
+}
 nav{
   position: fixed;
   background: #1b1b1b;
@@ -57,7 +69,7 @@ nav .menu{
 }
 
 .container {
-  background-image: url("/frontend_project/static/img/background1.png");
+  background-image: url("/static/img/background1.png");
  height: 800px;
 }
 .img{
@@ -84,8 +96,8 @@ nav .menu{
 }
 .center .title{
   color: #D1D5CE;
-  font-size: 55px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 150;
 }
 .center .subtitle{
   color: #D1D5CE;
